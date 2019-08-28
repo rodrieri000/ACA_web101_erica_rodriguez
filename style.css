@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://www.coreldraw.com/static/cdgs/images/pages/seo/tips/photo/basics/blur-background/blur-background-og.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1600px 1000px;
+    width: 100vw;
+    height: 100vh;
+  }
+ 
+  .logo {
+    width: 100px;
+    height: 100px;
+    margin: 3% 3%;
+  }
+  
+  .center {
+    text-align: center;
+  }
+ 
+  header {
+    display: grid;
+    grid-template-rows: auto;
+    width: 70%;
+    margin: 3% 3%;
+    color: white;
+  }
+ 
+  main {
+    height: auto;
+    width: 50%;
+    display: grid;
+    grid-template-rows: auto;
+  }
+ 
+  nav > a {
+    margin: 3% 3% 3%;
+    height: 10%;
+    width: 10%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 25px;
+    background: solid rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    border: 2px solid white;
+  }
+ 
+  .has-border {
+    border-radius: 25px;
+    border: 2px solid rgb(255, 255, 255);
+    background: none;
+    padding: 20px;
+  }
+ 
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding-right: 2%;
+  }
+ 
+  #profile-pic {
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 15% auto;
+    grid-column: 2/3;
+    text-align: center;
+  }
+ 
+  h1 {
+    color:white;
+    grid-column: 2/3;
+    margin: 3% auto;
+    
+}
+ 
+  h2 {
+    grid-column: 2/3;
+    color: white;
+    margin: 3% auto;
+  }
+ 
+  .small-text {
+    grid-column: 2/3;
+    color: white;
+    font-size: 10px;
+    margin: 3% auto;
+  }
+ 
+  button {
+    grid-column: 2/3;
+    margin: 3% auto;
+    width: 70%;
+    height: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border-radius: 25px;
+    background: transparent;
+    padding: 10px;
+    padding-bottom: 5%;
+    text-align: center;
+    color: white;
+    letter-spacing: 16px;
+    font-style: italic;
+  }
