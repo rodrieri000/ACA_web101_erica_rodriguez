@@ -1,6 +1,6 @@
 .main-container { 
-  height: 110%;
-  width: 100%;
+  height: 120%;
+  width: 105%;
   background: url("http://www.undr.com/understatement/2012/old-yellowed-folded-thin-paper-free-texture-background-free-clip-art/old_yellowed_folded_thin_paper.jpg");
 }
 .blog-container {
@@ -10,43 +10,47 @@
 }
 .header {
   display: inline-block;
-  text-align: center;
   margin: 10px;
-}
-.h1 {
   letter-spacing: .5px;
+}
+#headshot {
+ background-image: url("http://buben.fm/img/artist/256/197795.png");
+ height: 256px;
+ width: 256px;
 }
 .navbar {
   opacity: 0.5;
   background-color: #ffffff;
 }
 .nav ul {
-  list-style-type: none;
-  margin: none;
+  margin: 2px;
   overflow: hidden;
   display:inline-block;
 }
-.nav li {
-  list-style-type: none;
-  
-}
 .nav a {
-  display: block;
-  float: right;
   display: block;
   color: #ffffff;
   text-align: center;
-  padding: 20px 16px;
   text-decoration: none;
+  color: black; 
 }
-.column {
-  height: 90%;
-  width: 30%;
-  margin: 15px;
+.column1 {
+  height: 600px;
+  width: 400px;
+  margin: 30px 4px 10px 4px;
+  padding: 1%;
   background-color: #ffffff;
   display: inline-block;
-  opacity: 0.4;
-  padding: 2px;
+  opacity: 0.4
+}
+.column2 {
+  height: 550px;
+  width: 400px;
+  margin: 30px 4px 10px 4px;
+  padding: 1%;
+  background-color: #ffffff;
+  display: inline-block;
+  opacity: 0.4
 }
 .h3 {
   font-weight: 100;
