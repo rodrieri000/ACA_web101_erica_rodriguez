@@ -1,0 +1,199 @@
+.main-container {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  margin: 10px 10px 10px 10px;
+  font-family: Verdana, Geneva, Tahoma;
+}
+
+.h1 {
+  letter-spacing: 1px;
+}
+
+.article {
+  letter-spacing: none;
+  height: 20%;
+  width: 90%;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+
+#singapore-news {
+  background-color: #46487b;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+#tech-news {
+  background-color: #46487b;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+#subterranean-news {
+  background-color: #46487b;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.footer {
+  background-color: #46487b;
+  color: white;
+  height: 40%;
+  width: 100%;
+  margin: 10px 10px 10px 10px;
+  font-family: Verdana, Geneva, Tahoma;
+  display: inline-block;
+}
+
+.column1 {
+  font-size: 14px;
+  display: inline-block;
+  float: left;
+  padding: 3px 3px 3px 3px;
+
+}
+
+.column2 {
+  font-size: 14px;
+  display: inline-block;
+  float: right;
+  padding: 3px 3px 3px 3px;
+  margin-right: 100px;
+}
+
+.h3{
+  letter-spacing: 10px;
+}
+
+.li {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+
+
+/* Medium and up (Tablets) */
+@media (min-width: 768px) { 
+  .article {
+    width: 80%;
+    font-size: 17px;
+  }
+
+  #singapore-news {
+    padding: 20px 20px;
+    font-size: 18px;
+  }
+
+  #tech-news {
+    padding: 20px 20px;
+    font-size: 18px;
+  }
+
+  #subterranean-news {
+    padding: 20px 20px;
+    font-size: 18px;
+  }
+
+  .column1 {
+    margin-left: 15%;
+  }
+
+  .column2 {
+    margin-right: 25%;
+  }
+}
+
+
+/* Large and up (Desktops) */
+@media (min-width: 992px) {
+  .h1 {
+    font-size: 16;
+  }
+
+  .article {
+    font-size: 16;
+    width: 75%;
+  }
+
+  #singapore-news {
+    padding: 15px 15px;
+    font-size: 16px;
+  }
+
+  #tech-news {
+    padding: 15px 15px;
+    font-size: 16px;
+  }
+
+  #subterranean-news {
+    padding: 15px 15px;
+    font-size: 16px;
+  }
+
+  .footer {
+    height: 28%;
+  }
+
+  .column1 {
+    margin-left: auto;
+    
+  }
+}
+
+/* Extra Large and up (Wide Screen Desktops) */
+@media (min-width: 1200px) {
+  .h1 {
+    font-size: 16;
+  }
+
+  .article {
+    font-size: 16;
+    width: 75%;
+  }
+
+  #singapore-news {
+    padding: 15px 15px;
+    font-size: 16px;
+  }
+
+  #tech-news {
+    padding: 15px 15px;
+    font-size: 16px;
+  }
+
+  #subterranean-news {
+    padding: 15px 15px;
+    font-size: 16px;
+  }
+
+  .footer {
+    height: 28%;
+  }
+
+  .column1 {
+    margin-left: auto;
+    
+  }
+}
