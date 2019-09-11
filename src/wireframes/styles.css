@@ -1,0 +1,57 @@
+.main-container { 
+  height: 120%;
+  width: 105%;
+  background: url("http://www.undr.com/understatement/2012/old-yellowed-folded-thin-paper-free-texture-background-free-clip-art/old_yellowed_folded_thin_paper.jpg");
+}
+.blog-container {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+  letter-spacing: .5px;
+}
+.header {
+  display: inline-block;
+  margin: 10px;
+  letter-spacing: .5px;
+}
+#headshot {
+ background-image: url("http://buben.fm/img/artist/256/197795.png");
+ height: 256px;
+ width: 256px;
+}
+.navbar {
+  opacity: 0.5;
+  background-color: #ffffff;
+}
+.nav ul {
+  margin: 2px;
+  overflow: hidden;
+  display:inline-block;
+}
+.nav a {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  color: black; 
+}
+.column1 {
+  height: 600px;
+  width: 400px;
+  margin: 30px 4px 10px 4px;
+  padding: 1%;
+  background-color: #ffffff;
+  display: inline-block;
+  opacity: 0.4
+}
+.column2 {
+  height: 550px;
+  width: 400px;
+  margin: 30px 4px 10px 4px;
+  padding: 1%;
+  background-color: #ffffff;
+  display: inline-block;
+  opacity: 0.4
+}
+.h3 {
+  font-weight: 100;
+}

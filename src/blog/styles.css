@@ -1,0 +1,63 @@
+.main-container {
+  height: 120%; 
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: url("https://wallpaperplay.com/walls/full/1/a/f/49373.jpg") no-repeat center fixed;
+  background-position: center;
+  background-size: cover;
+}
+.blog-container {
+  height: 100%;
+  width: 100%;
+}
+#navbar {
+  opacity: 0.5;
+  font-size: 18px;
+}
+#navbar ul {
+  list-style-type: none;
+  margin: none;
+  overflow: hidden;
+  background-color: #27294b;
+}
+#navbar li {
+  float: left;
+  letter-spacing: 1.5px;
+}
+#navbar a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 18px;
+  text-decoration: none;   
+}
+li a:hover {
+  background-color: #000000;
+  letter-spacing: 2px;
+}
+.column {
+  height: 30%;
+  width: 15%;
+  margin: 3%;
+  background-color: whitesmoke;
+  opacity: 0.5;
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  color: #5b4c77
+}
+p:hover {
+  background-color: #bbbbbb;
+}
+.logo {
+  background-image: url(https://res-3.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_120,w_120,f_auto,b_white,q_auto:eco/v1488844837/tyyejznockhmsfqazqs8.png); 
+  background-image: center;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%; 
+}
+#mybutton {
+  position: fixed;
+  bottom: -4px;
+  right: 10px;
+}
