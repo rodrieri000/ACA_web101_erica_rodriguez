@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.grid-container {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 5% repeat(8, 1fr) 5%;
+  grid-template-rows: repeat(6, 1fr)
+}
+
+.box {
+  height: 100%;
+  width: 100%;
+}
+
+.red-box {
+}
+
+.h1 {
+  font-size: 16px;
+  color: #d49300;
+
+}
+
+.blue-box {
+}
+
+.yellow-box {
+}
+
+.pink-box {
+}
+
+.green-box {
+}
