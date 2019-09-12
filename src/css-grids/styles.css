@@ -28,7 +28,8 @@ body {
 
 .background > img {
   height: 100%;
-  width: 100%;
+  width: 100%;\
+  position: absolute;
 }
 
 .catalog {
@@ -43,7 +44,8 @@ body {
   grid-row: 1/2;
   font-size: 30px;
   letter-spacing: 20px;
-  font-weight: lighter; 
+  font-weight: lighter;
+  min-width: 20px;
 }
 
 .artist {
@@ -55,6 +57,8 @@ body {
 .social-media {
   grid-column: 9/9;
   grid-row: 1/2;
+  max-width: 275px;
+  min-width: 100px;
 }
 
 .social-media > img {
