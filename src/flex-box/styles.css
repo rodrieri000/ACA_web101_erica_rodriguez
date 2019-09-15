@@ -51,3 +51,8 @@ body {
   flex-wrap: wrap;
 }
 
+@media (max-width: 576px) {
+  .footer {
+    flex-direction: column;
+  }
+}
