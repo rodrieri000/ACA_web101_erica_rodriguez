@@ -1,108 +1,76 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url(https://www.coreldraw.com/static/cdgs/images/pages/seo/tips/photo/basics/blur-background/blur-background-og.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 1600px 1000px;
-    width: 100vw;
-    height: 100vh;
-  }
+  background-image: url("https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80");
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: 'Mukta', sans-serif;
+  margin: 0;
+  padding: 0;
+}
  
-  .logo {
-    width: 100px;
-    height: 100px;
-    margin: 3% 3%;
-  }
+.logo {
+  width: 100px;
+  height: 100px;
+  margin: 2%;
+}
   
-  .center {
-    text-align: center;
-  }
+header {
+  height: 60px;
+  width: 100%;
+  background-color: #b79797;
+}
  
-  header {
-    display: grid;
-    grid-template-rows: auto;
-    width: 70%;
-    margin: 3% 3%;
-    color: white;
-  }
- 
-  main {
-    height: auto;
-    width: 50%;
-    display: grid;
-    grid-template-rows: auto;
-  }
- 
-  nav > a {
-    margin: 3% 3% 3%;
-    height: 10%;
-    width: 10%;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    border-radius: 25px;
-    background: solid rgb(255, 255, 255);
-    padding: 20px;
-    text-align: center;
-    border: 2px solid white;
-  }
- 
-  .has-border {
-    border-radius: 25px;
-    border: 2px solid rgb(255, 255, 255);
-    background: none;
-    padding: 20px;
-  }
- 
-  nav {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-    padding-right: 2%;
-  }
- 
-  #profile-pic {
+.navbar, ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.li, a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+} 
+
+#profile-pic {
     width: 150px;
     height: 200px;
     border-radius: 50%;
-    margin: 15% auto;
     grid-column: 2/3;
     text-align: center;
   }
  
   h1 {
     color:white;
-    grid-column: 2/3;
-    margin: 3% auto;
-    
 }
  
   h2 {
-    grid-column: 2/3;
     color: white;
-    margin: 3% auto;
   }
  
   .small-text {
-    grid-column: 2/3;
     color: white;
-    font-size: 10px;
-    margin: 3% auto;
   }
  
   button {
-    grid-column: 2/3;
-    margin: 3% auto;
-    width: 70%;
-    height: 15%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    border-radius: 25px;
-    background: transparent;
-    padding: 10px;
-    padding-bottom: 5%;
+    width: 170px;
+    height: 60px;
+    font-size: 16px;
+    border-radius: 15px;
     text-align: center;
-    color: white;
-    letter-spacing: 16px;
-    font-style: italic;
+    background-color: #b79797;
+    opacity: .7;
+    letter-spacing: 4px;
   }
