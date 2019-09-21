@@ -107,6 +107,9 @@ main {
   border-radius: 10px;
 }
 
+.wireframe {
+  display: none;
+}
 
 
 /* Medium and up (Tablets) */
@@ -185,4 +188,10 @@ main {
     margin-right: 80px;
   }
 
+}
+
+@media (min-width: 992px) {
+  .wireframe {
+    display: block;
+  }
 }
