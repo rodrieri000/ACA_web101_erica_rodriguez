@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.main-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Ropa Sans', sans-serif;
+}
+
+.main {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  background: url("http://www.vexmosaic.com/wp-content/uploads/2015/04/Space.jpg");
+  background-position:center center;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#nasa {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 4px;
+  align-items: center;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  background-color: #cdc5bc;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.article {
+  height: 280px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 576px) {
+  .footer {
+    flex-direction: column;
+  }
+}
