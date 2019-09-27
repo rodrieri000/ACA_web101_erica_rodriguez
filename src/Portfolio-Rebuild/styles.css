@@ -3,7 +3,7 @@
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
 }
 
@@ -36,6 +36,12 @@ body {
   font-size: 20px;
   text-align: center;
   margin-top: 15px;
+}
+
+.title img {
+  height: 100px;
+  width: 100px;
+  border-radius: 40px;
 }
 
 .nav {
@@ -163,8 +169,8 @@ label {
   left: 0;
   width: 100%;
   height: 100%;
-  max-width: 600px;
-  max-height: 300px;
+  max-width: 560px;
+  max-height: 315px;
 }
 
 .form-title {
@@ -205,10 +211,13 @@ textarea{
 .b1 {
   font-family: 'Quicksand', sans-serif;
   font-size: 18px;  
+  background-color: #caa70b;
+  color: white;
   padding: 15px;
   border-radius: 15px;
   border: none;
   margin: 15px;
+  text-shadow: 2px 2px 2px #535353;
 }
 
 .b2 {
@@ -220,16 +229,17 @@ textarea{
   margin: 15px;
   background-color: #c95273;
   color: white;
+  text-shadow: 2px 2px 2px #535353
 }
 
 
 @media (min-width: 992px) {
 
   .background {
-    height: 900px;
+    height: 1000px;
   }
 
-  label {
+  .header label {
     display: none;
   }
 
@@ -238,11 +248,11 @@ textarea{
   }
 
   .menu {
+    padding: 20px;
     display: inline-block;
   }
 
   .menu ul {
-    
     display: flex;
     flex-direction: row;
     list-style-type: none;
@@ -261,6 +271,11 @@ textarea{
     padding: 20px;
   }
 
+  .main .title {
+    font-size: 30px;
+    font-weight: 200;
+  }
+
   .projects {
     padding: 20px;
   }
@@ -273,6 +288,7 @@ textarea{
 
   .blog a {
     padding: 15px;
+    font-size: 30px;
   }
 
   .checkpoint {
@@ -283,6 +299,7 @@ textarea{
 
   .checkpoint a {
     padding: 15px;
+    font-size: 30px;
   }
 
   .grids {
@@ -293,6 +310,7 @@ textarea{
 
   .grids a {
     padding: 15px;
+    font-size: 30px;
   }
 
   .flex {
@@ -303,6 +321,7 @@ textarea{
 
   .flex a {
     padding: 15px;
+    font-size: 30px;
   }
 
   .resume {
@@ -313,24 +332,33 @@ textarea{
 
   .resume a {
     padding: 15px;
+    font-size: 30px;
+  }
+
+  .vid-title {
+    font-size: 30px;
+    font-weight: 200;
   }
 
   .vid-container {
-    margin: 15px;
+    margin-left: 30px;
   }
 
   .form-title {
+    font-size: 35px;
+    font-weight: 200;
     position: absolute;
-    top: 327px;
+    top: 430px;
     left: 800px;
   }
 
   .form {
     position: absolute; 
-    top: 510px;
+    top: 600px;
     left: 800px;
     font-family: 'Quicksand', sans-serif; 
     text-align: left;
+    width: 500px;
   }
 
   label {
@@ -344,5 +372,9 @@ textarea{
 
   textarea{
     padding: 5px 3px 3px 5px;
+  }
+
+  .buttons {
+    width: 400px;
   }
 }
