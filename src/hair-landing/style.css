@@ -57,13 +57,12 @@ label {
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-image: url('./background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 1000px;
 }
 
-.main > img {
-  display: block;
-  object-fit: cover;
-  width: 100%;
-}
 
 .h3 {
   grid-row: 2w;
