@@ -5,8 +5,7 @@
 body {
   margin: 0 auto;
   padding: 0;
-  font-family: 'Barlow Semi Condensed', sans-serif;
-  
+  font-family: 'Barlow Semi Condensed', sans-serif;  
 }
 
 .main-container {
@@ -122,8 +121,7 @@ main {
     justify-content: space-between;
   }
 
-  .navbar, ul {
-    
+  .navbar, ul {    
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
